@@ -1,0 +1,45 @@
+{
+  "name": "twitch-plays-chess",
+  "version": "0.0.0",
+  "description": "A NodeCG bundle that allows twitch communities to play collectively against streamers or an expert AI.",
+  "homepage": "supportclass.net",
+  "author": {
+    "name": "Chris Hanel",
+    "email": "chrishanel@gmail.com",
+    "url": "supportclass.net"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "chess",
+    "twitch",
+    "chat",
+    "twitch plays",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.0.0",
+    "dashboardPanels": [
+      {
+        "name": "tpc-manager",
+        "title": "TPC Manager",
+        "width": 4,
+        "file": "tpc-manager.html",
+        "headerColor": "#9f9bbd"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "license": "MIT"
+}

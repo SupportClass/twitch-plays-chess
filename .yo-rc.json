@@ -1,0 +1,9 @@
+{
+  "generator-nodecg": {
+    "promptValues": {
+      "authorName": "Chris Hanel",
+      "authorEmail": "chrishanel@gmail.com",
+      "authorUrl": "supportclass.net"
+    }
+  }
+}
